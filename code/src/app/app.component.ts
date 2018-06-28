@@ -20,5 +20,10 @@ export class AppComponent {
 	 
  ];
   }
+  onAddEmp(data){
+    this.arrValue.push(data);
+    console.log(data);
+
+  }
 
 }
